@@ -60,7 +60,7 @@ function_verify () {
   exit 1
   } || {
   ### INTALAR VERCION DE SCRIPT
-  v1=$(curl -sSL "https://raw.githubusercontent.com/ThonyDroidYT/TD-Gen/master/MultiGen/VPS-MX/install/Vercion")
+  v1=$(curl -sSL "https://raw.githubusercontent.com/Waldo60/multikey/master/MultiGen/VPS-MX/install/Vercion")
   echo "$v1" > /etc/versin_script
   }
 }
@@ -96,7 +96,7 @@ echo "$Key" > $IVAR
 cp $HOME/lista-arq /etc/SCRIPT
 cp /bin/http-server.sh /etc/SCRIPT
 mv /etc/SCRIPT/http-server.sh /etc/SCRIPT/http-server.py
-wget https://raw.githubusercontent.com/ThonyDroidYT/TD-Gen/master/MultiGen/VPS-MX/gerador/gerar.sh &>/dev/null
+wget https://raw.githubusercontent.com/Waldo60/multukey/master/MultiGen/VPS-MX/gerador/gerar.sh &>/dev/null
 mv gerar.sh /etc/SCRIPT
 cd /etc/SCRIPT
 rm -rf FERRAMENTA KEY KEY! INVALIDA!
@@ -104,7 +104,7 @@ rm $HOME/lista-arq
 sed -i -e 's/\r$//' /usr/bin/gerar.sh
 echo -e "$BARRA"
 echo "/usr/bin/gerar.sh" > /usr/bin/gerar && chmod +x /usr/bin/gerar
-wget -O /var/www/html/instalscript.sh https://raw.githubusercontent.com/ThonyDroidYT/TD-Gen/master/MultiGen/VPS-MX/instalscript.sh &>/dev/null
+wget -O /var/www/html/instalscript.sh https://raw.githubusercontent.com/Waldo60/multikey/master/MultiGen/VPS-MX/instalscript.sh &>/dev/null
 echo -e "\033[1;33m Perfecto, utilize el comando \033[1;31mgerar.sh o gerar \033[1;33mpara administrar sus keys y
  actualizar la base data center"
 echo -e "$BARRA"
