@@ -106,7 +106,7 @@ echo -e "$BARRA"
 echo "/usr/bin/gerar.sh" > /usr/bin/gerar && chmod +x /usr/bin/gerar
 wget -O /var/www/html/instalscript.sh https://raw.githubusercontent.com/ThonyDroidYT/TD-Gen/master/MultiGen/VPS-MX/instalscript.sh &>/dev/null
 echo -e "\033[1;33m Perfecto, utilize el comando \033[1;31mgerar.sh o gerar \033[1;33mpara administrar sus keys y
- actualizar la base del servidor"
+ actualizar la base data center"
 echo -e "$BARRA"
 } || {
 echo -e "$BARRA"
